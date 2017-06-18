@@ -87,21 +87,21 @@ footer {
 }
 
 #github {
-	height: 50px;
-	width: 50px;
-	margin: 0px 0px 20px 42px;
+	height: 60px;
+	width: 60px;
+	margin: 0px 0px 20px 23px;
 }
 
 #linkedin {
-	height: 50px;
-	width: 50px;
-	margin: 0px 0px 20px 10px;
+	height: 60px;
+	width: 60px;
+	margin: 0px 0px 20px 18px;
 }
 
 #stackoverflow {
-	height: 60px;
-	width: 60px;
-	margin: 0px 0px 17px 10px;
+	height: 70px;
+	width: 70px;
+	margin: 0px 0px 17px 11px;
 }
 
 
@@ -174,6 +174,15 @@ h3 {
 
 input::placeholder {
   color: #bbbbbb;
+}
+
+/**gallery page specific**/
+#gallery-images{
+    margin: 22px;
+    border: 1px solid #ccc;
+    float: left;
+    height:200px;
+    width: 280px;
 }
 
 
