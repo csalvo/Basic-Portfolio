@@ -35,6 +35,14 @@ h2 {
 	font-weight: 700;
 }
 
+h4 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 22px;
+	color: #4aaaa5;
+	padding: 30px 10px 10px 20px;
+	font-weight: 700;
+}
+
 
 #header-name {
 	background-color: #4aaaa5;
