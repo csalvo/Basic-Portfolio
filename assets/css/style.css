@@ -213,6 +213,29 @@ input::placeholder {
 	float: left;
 }
 
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
 
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #666666;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	bottom:105%;
+	left:50%;
+	margin-left:-60px;
+    position: absolute;
+
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
 
 
