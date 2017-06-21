@@ -6,6 +6,7 @@
 
 body {
 	background: url("../images/light_honeycomb.png");
+    margin: 0 0 100px; 
 }
 
 a {
@@ -76,6 +77,11 @@ h4 {
 
 }
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 footer {
 	background-color:#666666;
 	padding:25px 0px 25px 0px;
@@ -85,9 +91,9 @@ footer {
 }
 
 #footer-line {
+	position: absolute;
 	border-top: solid 8px #4aaaa5;
-	position: fixed;
-	bottom: 0;
+	margin-top: 50%;
 	right :0;
 	left: 0;
 	width: 100%;
